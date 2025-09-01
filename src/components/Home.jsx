@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaLinkedin, FaInstagram, FaGithub, FaReact, FaNodeJs, } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss } from "react-icons/si";
-
+import resume from "../files/sourabhMondalResume.pdf"
 import { ReactTyped, Typed } from "react-typed";
 import heroPic from "../assets/photo_removebg.png"
 import resume from "../files/sourabhMondalResume.pdf"
