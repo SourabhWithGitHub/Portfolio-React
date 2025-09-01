@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap');
+
+@import "tailwindcss";
+
+
+body{
+    font-family: 'popins', sans-serif;
+
+}
+:root {
+  --color-future-dusk: #F3F4F7;
+  --color-future-dusk-accent: #6C7AD2;
+  --color-future-dusk-text: #2F2D52;
+}
+.dark {
+  --color-future-dusk: #2F2D52;
+  --color-future-dusk-accent: #6C7AD2;
+  --color-future-dusk-text: #E2DFF3;
+}
