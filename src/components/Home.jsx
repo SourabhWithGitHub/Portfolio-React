@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaLinkedin, FaInstagram, FaGithub, FaReact, FaNodeJs, } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss } from "react-icons/si";
-
+import resume from "../files/sourabhMondalResume.pdf"
 import { ReactTyped, Typed } from "react-typed";
 import heroPic from "../assets/photo_removebg.png"
 import '../../src/index.css'
@@ -41,7 +41,7 @@ const Home = () => {
                             <br />
 
                             <div className='flex justify-center mt-4 -mt-40 md:mt-1'>
-                                <a href="src/files/sourabhMondalResume.pdf" target="_blank" download>
+                                <a href={resume} target="_blank" download>
                                     <button className='h-[50px] w-[150px] rounded-full outline-3 outline-offset-2 outline-fuchsia-500 bg-linear-to-bl from-violet-500 to-fuchsia-500 text-white font-bold animate-bounce hover:animate-none cursor-pointer'>
                                         My Resume
                                     </button>
